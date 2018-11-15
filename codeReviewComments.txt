@@ -1,0 +1,12 @@
+
+Below are my notes for the code review:
+
+- My intial thought is that the code itself is commented/documented nicely. I am able to understand what the different parts of the code code blocks are doing. The fuctionality of the site (buttons, sorts, and search) work as intended.
+
+- Styling can be improved by changing the width of the app container to place all buttons on the same line. It is also suggested to center the table elements underneath their prospective headers. I personally would remove the border around the table so that the elements flow better with the page accross all devices.
+
+- The list of employees is so long it takes a while to scroll down the page. Look into adding pagination to break the displayed information down into multiple pages that the user may be able to increase how many items per-page they can view.
+
+- Add another search parameter called position or department. The data returned in the "getPersonList" functtion also returns of their current position titles as a property. Add a dropdown with the different titles, so if a person wanted to see who all was in the engineering department or who all the software engineers were. Doing this could also help mitigate search times as the company employee count grows.
+
+- Once you sort by first or last name to further develop the functionality and ease for the user, look into adding a Character list underneath the buttons (ie. A, B, C, D etc). For example...The user clicks "Sort (First Name) and displays the sorted list. Doing so now displays the character list below the buttons (or even on the side of the table). The user can now click the letter "L". This should allow the user to navigate directly to all persons whos name begins with the letter "L".
